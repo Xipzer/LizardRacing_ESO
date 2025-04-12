@@ -6,12 +6,12 @@ import random
 import win32gui
 
 # Load template images
-e_talk_template = cv2.imread('e_talk.png', 0)  # For "E Talk" Prompt
-goodbye_template = cv2.imread('goodbye.png', 0)  # For "Goodbye" Dialogue
-whats_lizard_racing_template = cv2.imread('whats_lizard_racing.png', 0)  # For "What's Lizard Racing" Dialogue
-thanks_template = cv2.imread('thanks.png', 0)  # For "Thanks" Dialogue
-try_again_template = cv2.imread('try_again.png', 0)  # For "Try Again" Dialogue
-lizard_racing_template = cv2.imread('lizard_racing_quest.png', 0)  # For "Lizard Racing" Quest Name In Your Journal
+e_talk_template = cv2.imread('images/e_talk.png', 0)  # For "E Talk" Prompt
+goodbye_template = cv2.imread('images/goodbye.png', 0)  # For "Goodbye" Dialogue
+whats_lizard_racing_template = cv2.imread('images/whats_lizard_racing.png', 0)  # For "What's Lizard Racing" Dialogue
+thanks_template = cv2.imread('images/thanks.png', 0)  # For "Thanks" Dialogue
+try_again_template = cv2.imread('images/try_again.png', 0)  # For "Try Again" Dialogue
+lizard_racing_template = cv2.imread('images/lizard_racing_quest.png', 0)  # For "Lizard Racing" Quest Name In Your Journal
 
 # Define screen regions (adjust these based on your game window)
 e_talk_region = (1062, 611, 93, 37)  # (x, y, width, height) For "E Talk" Prompt
